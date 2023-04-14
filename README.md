@@ -1,0 +1,5 @@
+# biometria_para_portao
+O projeto consiste em um leitor de biometria de baixo custo, alta eficiência, auto suficiente e de fácil instalação, podendo ser colocado em qualquer portão elétrico sem necessidade de alterar o ambiente no qual ele será instalado
+O sensor de biometria funcionava em primeira medida tendo que usar vários códigos um após o outro para fazer o cadastro e operá-lo, após algumas mudanças o código principal conseguia ler as biometrias cadastradas no aparelho;
+A segunda implementação foi a de cadastro no próprio código principal com a funcionalidade de cadastro instantâneo. Contudo qualquer, pessoa cadastrada poderia cadastrar uma nova biometria. Para evitar riscos, foi colocado como parâmetro de que apenas o usuário escolhido poderia fazer o cadastro de novas pessoas trazendo mais conforto e segurança para os moradores;
+Após toda a pinagem e o aparelho pronto, foi implementado um módulo Relé para conectar o portão ao aparelho e uma bateria recarregável de 10000mA. O Arduino seria alimentado pela bateria e o portão também usaria a energia da bateria para abri-lo;
